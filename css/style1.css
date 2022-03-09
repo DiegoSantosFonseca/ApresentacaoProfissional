@@ -1,0 +1,255 @@
+/*importando uma fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Representa todos os elementos HTML - Tods usarão a mesma formatação*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*regras genéricas*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/******** header da página ********/
+
+.header-top {
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    
+        
+}
+
+
+
+.scroll-active {
+    background-color: #2e1b1f7e;
+}
+
+/***************** fim header da pagina *******************/
+
+
+/***************** hero *******************/
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/javascript.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+/***************** fim hero *******************/
+
+/****************** Card do Menu*********************/
+
+
+
+.blog_post {
+  position: relative;
+  padding: 6rem;
+  background: -webkit-linear-gradient(to right, #46474b, #6a7f8b);
+  background: linear-gradient(to right,#2f2f33,#718591);
+  max-width: 100%;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: initial;
+  
+}
+
+.img_pod {
+  overflow:hidden;
+  height: 150px;
+  width: 150px;
+  box-shadow: 1px 1px 2rem rgb(255 255 255 / 70%);
+  border-radius: 100%;
+  position: absolute;
+  left: -50px;
+  top: 10px;
+  transform: translateY(-50%);
+  
+}
+
+.img_pod img {
+  width: 132%;
+  margin-left: -22%;
+  margin-top: -9%;
+  
+}
+
+.container_copy h2 {
+  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  color: rgb(225 225 225);
+  
+}
+
+.container_copy h3 {
+  
+  margin: 0 0 0.9rem 0;
+  font-size: 1.50rem;
+  color: #f4f4f4;
+}
+
+.container_copy a  {
+  text-decoration:none;
+  margin: 0 0 0.9rem 0;
+  font-size: 1.50rem;
+  color: #f4f4f4;
+}
+.container_copy a:hover {
+  color: #005fc7; 
+}
+
+/****************** Fim Card do Menu*********************/
+
+/***************** Card  *******************/
+
+.card {
+    width: 80%;
+    margin: 20px auto;
+    padding: 80px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.card-title {
+    font-size: 6vmin;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.line {
+    width: 180px;
+    height: 5px;
+    background-color: #005fc7;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.card-list {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.card-list-item {
+    width: 40%;
+    
+}
+
+.card-list-item h3 {
+    font-size: 4vmin;
+    margin-top: 20px;
+}
+
+.card-list-item p {
+    font-size: 2vmin;
+    margin: 10px 0 40px;
+    word-break: break-all;
+}
+
+
+.card-img {
+    width: 75%;
+    transition: .9s;
+    box-shadow: 1px 1px 2rem rgba(63, 63, 63, 0.7);
+    border-radius: 20px;
+}
+
+.card-img:hover {
+    transform: scale(1.2);
+}
+
+/***************** fim Card *******************/
+
+/***************** Card 2 *********************/
+
+.card2 {
+  width: 80%;
+  margin: 20px auto;
+  padding: 80px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.card-title2 {
+  font-size: 6vmin;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.line {
+  width: 300px;
+  height: 5px;
+  background-color: #005fc7;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.card-list2 {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.card-list-item2 {
+  width: 50%;
+  
+}
+
+.card-list-item2 h3 {
+  font-size: 4vmin;
+  margin-top: 20px;
+}
+
+.card-list-item2 p {
+  font-size: 2vmin;
+  margin: 10px 0 40px;
+  word-break: normal;
+}
+
+
+.card-img2 {
+  width: 65%;
+  transition: .9s; 
+  border-radius: 20px;
+  box-shadow: 1px 1px 2rem rgba(63, 63, 63, 0.7);
+}
+
+.card-img2:hover {
+  transform: scale(1.2);
+}
+/***************** Fim Card 2 *********************/
+
